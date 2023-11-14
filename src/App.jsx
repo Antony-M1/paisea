@@ -7,6 +7,8 @@ import { useState } from 'react';
 import ListItems from './component/ListItems';
 import ButtonCount from './component/ButtonCount';
 import Game from './component/Game';
+import ProductTableApp from './component/thinking-in-react/ProductTable';
+import YourFirstComponent from './component/YourFirstComponent';
 
 
 const Button = () => {
@@ -65,7 +67,12 @@ function App() {
       <hr />
       <h1>Tic-Tac-Toe</h1>
       <Game />
-
+      <hr />
+      <h1>Thinking in React</h1>
+      <ProductTableApp />
+      <hr />
+      <h1>Your First Component</h1>
+      <YourFirstComponent />
       <br />
       <br />
       <br />
