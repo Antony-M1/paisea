@@ -9,6 +9,8 @@ import ButtonCount from './component/ButtonCount';
 import Game from './component/Game';
 import ProductTableApp from './component/thinking-in-react/ProductTable';
 import YourFirstComponent from './component/YourFirstComponent';
+import AddingInteractivity from './component/AddingInteractivity';
+import RespondingToEvents from './component/RespondingToEvents';
 
 
 const Button = () => {
@@ -73,6 +75,11 @@ function App() {
       <hr />
       <h1>Your First Component</h1>
       <YourFirstComponent />
+      <hr />
+      <AddingInteractivity />
+      <hr />
+      <RespondingToEvents />
+      <hr />
       <br />
       <br />
       <br />
