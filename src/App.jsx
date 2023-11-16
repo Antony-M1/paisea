@@ -11,6 +11,11 @@ import ProductTableApp from './component/thinking-in-react/ProductTable';
 import YourFirstComponent from './component/YourFirstComponent';
 import AddingInteractivity from './component/AddingInteractivity';
 import RespondingToEvents from './component/RespondingToEvents';
+import ComponentsMemory from './component/ComponentMemory';
+import RenderAndCommit from './component/RenderAndCommit';
+import StateAsASnapshot from './component/StateAsASnapshot';
+import QueueingASeriesOfStateUpdates from './component/QueueingASeriesOfStateUpdates';
+import UpdatingObjectsinState from './component/UpdatingObjectsinState';
 
 
 const Button = () => {
@@ -79,6 +84,17 @@ function App() {
       <AddingInteractivity />
       <hr />
       <RespondingToEvents />
+      <hr />
+      <ComponentsMemory />
+      <hr />
+      <RenderAndCommit />
+      <hr />
+      <h1>State As a Snapshot</h1>
+      <StateAsASnapshot />
+      <hr />
+      <QueueingASeriesOfStateUpdates />
+      <hr />
+      <UpdatingObjectsinState />
       <hr />
       <br />
       <br />
